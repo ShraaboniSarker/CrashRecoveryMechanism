@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
-Button button_crash_main_thread;
+    Button button_crash_main_thread;
     protected CrashRecoveryApplication app;
 
 

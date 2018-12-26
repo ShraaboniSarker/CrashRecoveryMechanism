@@ -22,11 +22,5 @@ public class CrashRecoveryApplication extends Application {
         return instance;
     }
 
-    private void handleUncaughtException (Thread thread, Throwable e) {
 
-        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-        startActivity(intent);
-
-
-    }
 }
